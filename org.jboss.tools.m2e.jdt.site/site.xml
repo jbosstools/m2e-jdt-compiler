@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="M2E connector for the Eclipse JDT Compiler">
+      M2E connector for the Eclipse JDT Compiler
+   </description>
+   <category name="m2e-jdt-compiler"/>
+   <feature url="features/org.jboss.tools.m2e.jdt.feature_0.0.0.qualifier.jar" id="org.jboss.tools.m2e.jdt.feature" version="0.0.0">
+      <category name="m2e-jdt-compiler"/>
+   </feature>
+   <category-def name="m2e-jdt-compiler" label="M2E connector for the Eclipse JDT Compiler"/>
+</site>
