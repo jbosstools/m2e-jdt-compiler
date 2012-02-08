@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: M2E connector for the Eclipse JDT Compiler
 Bundle-SymbolicName: org.jboss.tools.m2e.jdt.core;singleton:=true
-Bundle-Version: 1.0.0.20120208-1640
+Bundle-Version: 1.0.1.qualifier
 Bundle-Vendor: JBoss by Red Hat
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6, JavaSE-1.7
 Require-Bundle: org.eclipse.core.resources;bundle-version="3.4.0",

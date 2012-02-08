@@ -18,7 +18,7 @@
 
   <groupId>org.jboss.tools.m2e.jdt</groupId>
   <artifactId>org.jboss.tools.m2e.jdt.parent</artifactId>
-  <version>1.0.0.20120208-1640</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>M2E connector for the Eclipse JDT Compiler :: Parent </name>
   <properties>
