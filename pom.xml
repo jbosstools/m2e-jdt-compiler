@@ -25,6 +25,7 @@
     <tycho-version>0.15.0</tycho-version>
     <test.timeout>600</test.timeout><!--  10 mins -->       
     <tycho.test.jvmArgs>-Xmx512m -XX:MaxPermSize=256m</tycho.test.jvmArgs>
+		<tycho.scmUrl>scm:git:https://github.com/jbosstools/m2e-jdt-compiler.git</tycho.scmUrl>
   </properties>
 
   <modules>
