@@ -41,9 +41,9 @@
     </repository>
 
     <repository>
-      <id>luna</id>
+      <id>eclipse</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/releases/luna</url>
+      <url>http://download.eclipse.org/releases/mars</url>
     </repository>
 
     <repository>
@@ -125,7 +125,7 @@
                 <dependencies>
                   <dependency>
                     <artifactId>org.eclipse.jdt.launching.macosx</artifactId>
-                    <version>3.2.100</version>
+                    <version>0.0.0</version>
                     <type>eclipse-plugin</type>
                   </dependency>
                 </dependencies>
