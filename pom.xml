@@ -22,7 +22,7 @@
   <packaging>pom</packaging>
   <name>M2E connector for the Eclipse JDT Compiler :: Parent </name>
   <properties>
-    <tycho-version>0.15.0</tycho-version>
+    <tycho-version>0.22.0</tycho-version>
     <test.timeout>600</test.timeout><!--  10 mins -->       
     <tycho.test.jvmArgs>-Xmx512m -XX:MaxPermSize=256m</tycho.test.jvmArgs>
   </properties>
@@ -41,9 +41,9 @@
     </repository>
 
     <repository>
-      <id>juno</id>
+      <id>luna</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/releases/juno</url>
+      <url>http://download.eclipse.org/releases/luna</url>
     </repository>
 
     <repository>
@@ -107,10 +107,9 @@
     <profile>
       <id>osx</id>
       <activation>
-        <property>
-          <name>java.vendor.url</name>
-          <value>http://www.apple.com/</value>
-        </property>
+        <os>
+          <family>mac</family>
+        </os>
       </activation>
       <properties>
         <tycho.test.jvmArgs>-Xmx800m -XX:MaxPermSize=256m -XstartOnFirstThread</tycho.test.jvmArgs>
